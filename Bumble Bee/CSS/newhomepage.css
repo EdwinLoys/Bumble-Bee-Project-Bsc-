@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Fjord+One');
+body{
+	max-width: 100vw;
+	overflow-x: hidden;
+}
+.home-contain{
+	max-width: 100vw;
+	width: 100%;
+	/* background: red; */
+	display: block;
+	position: relative;
+}
+
+.photo-div {
+	max-width: 100%;
+	max-height:  700px;
+	height:  600px;
+/*
+
+	 background-color: green; 
+*/
+	
+	margin-top: 20px;
+	display: flex;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+/* .photo-div video{
+	  width: 150%;
+ 	 height: 600px;
+	
+} */
+/*
+.photo-div img {
+	width:100%;
+	height:100%;
+	 margin-left: 40px; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+*/
+
+.photo-div  .paragraph {
+	z-index: 99;
+	position: absolute;
+	/* background-color: transparent; */
+	background-color:rgba(192,192,192,0.3);
+	width: 100%;
+	height: 100%;
+}
+
+.photo-div .paragraph p {
+	color: white;
+	top: 0;
+	font-size: 50px;
+	margin-left:10px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.paragraph p2{
+	color: white;
+	margin-top: -350px;
+	font-size: 50px;
+	margin-left: 200px;
+	font-family: 'Fjalla One', sans-serif;
+	  text-decoration: underline;
+}
+
+
+
+.featured-products {
+	width: 100%;
+	/* background-color: blue; */
+	margin-top: 20px;
+	display: flex;
+	height: 70vh;
+	margin-left: 25%;
+	margin-bottom: 20px;
+	/* margin-left: 12%; */
+}
+
+.featured-products p {
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 40px;
+	margin-left: 330px;
+}
+
+.featured-products .img-wrap {
+	width:auto;
+	height: auto;
+	margin-left: 20px;
+	/* background-color: violet; */
+
+}
+.featured-products .p-details{
+	width: 150%;
+	margin-left: -520px;
+	/* background-color: white; */
+	display: block;
+}
+.featured-products .p-details p{
+	font-size: 1.2em;
+	margin-left: 0;
+	text-align: left;
+}
+.featured-products .p-details h1{
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	font-size: 3em;
+	margin-left: 0;
+	text-align: left;
+}
+.img-wrap img{
+	max-width: 250px;
+	height: 350px;
+	display: block;
+margin-left: auto;
+margin-right: auto;
+	object-fit: contain;
+}
+
+
+.services{
+		display: flex;
+/*		background-color: red;*/
+		width: 100%;
+		height: 60vh;
+		margin-top: 25px;
+		margin-bottom: 25px;
+	margin-left: 30px;
+}
+
+.section-4{
+  height: 70vh;
+  max-width: 100%;
+  background-image: url("../images/banner images/casual-new-model-shirts-camisa-social-long.jpg");
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: white;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 20px;
+    background-repeat: no-repeat;
+background-position: center;
+    background-size: cover;
+  }
+.section-4 .text{
+    padding: 20px;
+    margin:30px;
+}
+.section-4 h1{
+    font-size: 5em;
+		color: navy;
+
+}
+.section-4 p{
+    width: 450px;
+    font-size: 1em;
+	text-align: justify;
+	color: white;
+}
+.section-4 p::before{
+    display: block;
+    float: left;
+    font-size: 3em;
+    content: open-quote;
+    font-family: 'Fjalla One', sans-serif;
+}.section-4 p::after{
+      display: block;
+    margin: 0;
+    font-size: 3em;
+    content: close-quote;
+    float: right;
+}
+
+.maps{
+	margin-top: 25px;
+	margin-bottom:  25px;
+	max-height: 70vh;
+	max-width: 100%;
+	width: 100%;
+	max-width: 80%;
+	/* background-color: red; */
+}
+
+.maps h1{
+    font-size: 3em;
+		color:navy;
+		font-family: 'Fjalla One', sans-serif;
+
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.container .box {
+	
+	position: relative;
+	width: 350px;
+	padding: 40px;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	border-radius: 4px;
+	
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+.container .box:before {
+	
+	
+	content: '';
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,.2);
+	z-index: 2;
+	pointer-events: none;
+	
+}
+
+.container .box .icon{
+position: relative;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 50%;
+	font-size: 40px;
+	font-weight: 700;
+	transition: 1s;
+	
+}
+
+.container .box:nth-child(1) .icon{
+	box-shadow:  0 0 0 0 #0C6BCC ;
+	background: #0C6BCC ;
+	
+}
+
+.container .box:nth-child(1):hover .icon{
+	box-shadow:  0 0 0 400px #0C6BCC ;
+	
+	
+}
+
+
+.container .box:nth-child(2) .icon{
+	box-shadow:  0 0 0 0 #D0C509 ;
+	background: #D0C509 ;
+	
+}
+
+.container .box:nth-child(2):hover .icon{
+	box-shadow:  0 0 0 400px #D0C509 ;
+	
+	
+}
+
+
+.container .box:nth-child(3) .icon{
+	box-shadow:  0 0 0 0 #3EF352 ;
+	background:#3EF352 ;
+	
+}
+
+.container .box:nth-child(3):hover .icon{
+	box-shadow:  0 0 0 400px #3EF352 ;
+	
+	
+}
+
+.container .box .content{
+	position: relative;
+	z-index: 1;
+	transition: 0.5s;
+	
+}
+
+.container .box:hover .content
+{
+	color: #fff;
+	
+}
+
+
+.container .box .content h3 {
+	font-size: 20px;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.container .box .content p {
+	
+margin: 0;
+	padding: 0;
+	
+}
+.container .box .content a {
+
+	
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+	margin-top: 20px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+
+
+
+.mapouter{position:relative;text-align:right;height:336px;width:1080px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:336px;width:1080px;}

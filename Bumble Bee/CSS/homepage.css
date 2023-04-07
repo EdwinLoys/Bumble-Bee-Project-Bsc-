@@ -1,0 +1,239 @@
+@font= 'Fjalla One', sans-serif;
+
+*{background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+body {
+ background: #ccc;
+height: 300vh;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+
+
+#myVideo {
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ min-width: 100%;
+ min-height: 100%;
+    z-index: -1;
+}
+
+.video{
+      position: absolute;
+  width:109%;
+  top:  0;
+  right:  0;
+  bottom:  0;
+  text-transform: uppercase;
+  line-height: normal;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.3em;
+  color: white;
+  z-index: 99;
+  background-color: rgba(33, 30, 30, 0.5);
+}
+
+.section-1{
+  transform: translateY(-40px);
+  height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-2{
+  transform: translateY(-40px);
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("../images/choco1.jpg");
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+    background-repeat: no-repeat;
+background-position: center;
+    background-size: cover;
+  }
+
+ .img-cont{
+  position: absolute;
+  flex: auto;
+  overflow: hidden;
+  margin:  10px;
+  left: 0;
+/*  border-radius: 50%;*/
+     width: 350px;
+     height:  350px;
+  }
+
+
+.section-2 .about-us{
+    position: absolute;
+
+    top: 0;
+  }
+ .about-us h1{
+  text-transform: uppercase;
+  line-height: normal;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.3em;
+  color: #FFF;
+  }
+
+ .about-us h1::before {
+  content: '';
+  bottom: 0;
+  margin-right: 10px;
+  border:3px solid red;
+  width: 100%;
+
+ }
+
+.about-us p{
+ font-family: 'Fjalla One', sans-serif;
+  width:500px;
+  color: #FFF;
+  position: absolute;
+  line-height:3;
+  text-align: left;
+
+  }
+
+  .section-3{
+    transform: translateY(-40px);
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("../images/choco2.jpg");
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      color: white;
+      font-family: 'Fjalla One', sans-serif;
+    padding: 0;
+      background-repeat: no-repeat;
+background-position: center;
+      background-size: cover;
+    }
+.section-3 .client-img{
+    width: 40%;
+    overflow: hidden;
+}
+.section-3 .client-img img{
+  position: absolute;
+  flex: auto;
+  overflow: hidden;
+  right:  0;
+    top:  0;
+    z-index: -1;
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+  /* border-radius: 50%; */
+}
+.section-3 .client-img .overlay {
+  position: absolute;
+  flex: auto;
+  width:49%;
+  top:  0;
+  right:  0;
+  bottom:  0;
+  text-transform: uppercase;
+  line-height: normal;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.3em;
+  color: white;
+  z-index: 99;
+  background-color: rgba(33, 30, 30, 0.5);
+}
+.section-3 .client-img .overlay h3{
+  position: absolute;
+    right: 33px;
+    margin-top: 50%;
+}
+
+.section-3 .desc{
+        width: 30%;
+    overflow: hidden;
+    
+}
+.section-3 .desc h1{
+      position: absolute;
+  top:  10px;
+  left:  10px;
+    padding: 20px;
+  text-transform: uppercase;
+  line-height: normal;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.3em;
+
+}
+
+.section-3 .desc h1::before {
+  content: '';
+  bottom: 0;
+  margin-right: 10px;
+  border:3px solid red;
+  width: 100%;
+
+ }
+
+.section-3 .desc p{
+        width: 350px;
+    font-size: 1.6em;
+    text-align: justify;
+
+}
+
+.section-4{
+  transform: translateY(-40px);
+  height: 100vh;
+  max-width: 100%;
+  background-image: url("https://unsplash.it/1000");
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: white;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 20px;
+    background-repeat: no-repeat;
+background-position: center;
+    background-size: cover;
+  }
+.section-4 .text{
+    padding: 20px;
+    margin:30px;
+}
+.section-4 h1{
+    font-size: 5em;
+
+}
+.section-4 p{
+    width: 350px;
+    font-size: 1em;
+    text-align: justify;
+}
+.section-4 p::before{
+    display: block;
+    float: left;
+    font-size: 3em;
+    content: open-quote;
+    font-family: 'Fjalla One', sans-serif;
+}.section-4 p::after{
+      display: block;
+    margin: 0;
+    font-size: 3em;
+    content: close-quote;
+    float: right;
+}

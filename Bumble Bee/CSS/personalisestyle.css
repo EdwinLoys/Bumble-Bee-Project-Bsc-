@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.move p{
+	position: relative;
+	margin-left: 50%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link
+{
+    color: #fff;
+    background-color: #555;
+}
+
+
+.move-button{
+	position: relative;
+	margin-left: 70%;
+
+}
+.fa-kiss-wink-heart {
+	font-size: 140px;
+}
+
+.text-center  .fa-heart {
+	font-size: 40px;
+}
+
+.nav-item .nav-link{
+	background-color: #e45e5e;
+}
+
+#personalise_btn{
+    border: 1px solid transparent;
+    border-radius: .375rem;
+	color: #fff;
+    border-color: #F97B04;
+    background-color: #F97B04;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+#nav-item{
+	border-radius: 0;
+	/* width: 100%; */
+	/* background-color: white; */
+	background-color: #f39c12;
+	color: white;
+	text-align: center;
+	padding: 10px 25px;
+	border: none;
+	font-weight: bold;
+	letter-spacing: 2;
+	text-transform: uppercase;
+}
+#card-body{
+	/* background-color:#26272b;*/
+	background-color: #EAEFF7;
+
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #f59600;
+}

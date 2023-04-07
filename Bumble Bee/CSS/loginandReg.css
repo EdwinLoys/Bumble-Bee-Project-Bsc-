@@ -1,0 +1,233 @@
+/*@import url('https://fonts.googleapis.com/css?family=Mukta');*/
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height:100vh;
+  width: auto;
+	min-height:550px;
+  background-color:white;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+  overflow-y: hidden;
+}
+
+a{
+  text-decoration:none;
+  color:#444444;
+}
+
+.back-link{
+  text-decoration:underline;
+  color:black;
+  margin: 10px 15px;
+}
+
+.login-reg-panel{
+    position: relative;
+    top: 32%;
+    transform: translateY(-50%);
+	  text-align:center;
+    width:70%;
+  	right:0;left:0;
+    margin:auto;
+    height:400px;
+    background: navy; 
+    background: -webkit-linear-gradient(to top, #207BE0 , navy); 
+    background: linear-gradient(to top, #207BE0 , navy);
+    
+
+}
+.white-panel{
+    background-color: white;
+    height:600px;
+    position:absolute;
+    top:-50px;
+    width:50%;
+    right:calc(50% - 50px);
+    transition:.3s ease-in-out;
+    z-index:0;
+    
+   
+
+}
+.login-reg-panel input[type="radio"]{
+    position:relative;
+    display:none;
+}
+.login-reg-panel{
+    color:whitesmoke;
+}
+.login-reg-panel #label-login,
+.login-reg-panel #label-register{
+    border:2px solid whitesmoke;
+    padding:5px 5px;
+    font-weight: bold;
+    width:150px;
+    display:block;
+    text-align:center;
+    border-radius:3px;
+    cursor:pointer;
+}
+.login-info-box{
+    width:30%;
+    padding:0 50px;
+    top:20%;
+    left:0;
+    position:absolute;
+    text-align:left;
+}
+.register-info-box{
+    width:30%;
+    padding:0 50px;
+    top:20%;
+    right:0;
+    position:absolute;
+    text-align:left;
+
+}
+.right-log{right:50px !important;}
+
+.login-show,
+.register-show{
+    z-index: 1;
+    display:none;
+    opacity:0;
+    transition:0.3s ease-in-out;
+    color:navy;
+    text-align:left;
+    padding:50px;
+}
+.show-log-panel{
+    display:block;
+    opacity:0.9;
+}
+.login-show input[type="text"], .login-show input[type="password"]{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    transition: .2s border ease-in;
+}
+
+.register-show input[type="text"], .register-show input[type="password"]{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    transition: .2s border ease-in;
+}
+.register-show input[type="password"]{
+    width: 40%;
+    display: inline;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+.login-show input[type="text"], .login-show input[type="password"],
+ .register-show input[type="text"], .register-show input[type="password"]{
+    border:   2px solid navy;
+    outline: none;
+}
+
+.login-show input[type="text"]:focus, .login-show input[type="password"]:focus,
+ .register-show input[type="text"]:focus, .register-show input[type="password"]:focus{
+    border: 2px solid #207BE0 ;
+    outline: none;
+}
+ #btn-login , #btn-register{
+    max-width: 150px;
+    width: 100%;
+    background: navy;
+    box-shadow:0px 1px 2px #050000;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 13px;
+    float:right;
+    cursor:pointer;
+     margin-top: 10px;
+    outline: none;
+    transition: .2s all ease-in;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ #btn-login:hover , #btn-register:hover  {
+     background:#207BE0;
+    box-shadow:-2px 9px 17px #000000;
+    transition: .2s all ease-in;
+        }
+.login-show a{
+    display:inline-block;
+    padding:10px 5px;
+    margin-top: 10px;
+    color: dimgrey;
+    font-size: .9em;
+}
+
+
+
+.credit {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color: #3B3B25;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 99;
+}
+a{
+  text-decoration:none;
+  color:#eaeaea;
+}
+
+
+#frmCheckPassword {
+  border-top:#F0F0F0 2px solid;
+  background:#FAF8F8;
+  padding:10px;
+}
+.demoInputBox
+{
+  padding:7px;
+  border:#F0F0F0 1px solid;
+  border-radius:4px;
+}
+#password-strength-status
+{
+  padding: 5px 10px;
+  color: black;
+  font-weight: bold;
+  border-radius:4px;
+  margin-top:5px;
+}
+.medium-password
+{
+  background-color: #f5f235;
+  border:#f5f235 1px solid;
+}
+.weak-password{
+  background-color:red;
+  border:red 1px solid;
+}
+.strong-password{
+  background-color: #0be216;
+  border:#0FA015 1px solid;
+}
+ #Logmessage , #message{
+
+  color: red;
+  font-weight: bold;
+}

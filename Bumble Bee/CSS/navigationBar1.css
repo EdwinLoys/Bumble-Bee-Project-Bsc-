@@ -1,0 +1,40 @@
+
+.navigation{
+  width: 100vw;
+  height: 70px;
+  background-color:white;
+  z-index: 9;
+}
+
+.navigation ul {
+   list-style: none;
+   margin: 0;
+   padding: 10px;
+  z-index : 99;
+  position: relative;
+  transition: padding .6s ease-in-out;
+}
+  .navigation  li a {
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px;
+   font-size:18px;
+
+   margin-right: 13px;
+   float: left;
+   color:navy;
+   text-decoration: none;
+   z-index : 99;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   transition: width .6s ease-in-out;
+   }
+
+  .navigation  li:nth-child(5) a{
+ padding: 13px;
+ float:right;
+}
+  .navigation  li:nth-child(6) a{
+ padding: 13px;
+ float:right;
+
+}

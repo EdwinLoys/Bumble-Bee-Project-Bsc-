@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+.contact-forms {
+	position: relative;
+	width: 100%;
+/*	background-color: green;*/
+
+	
+}
+
+
+
+.header {
+	position: relative;
+	width: 50%;
+/*background-color: black;*/
+	margin-top: 10px;
+	margin-left: 27%;
+}
+
+.header h1 {
+	font-size: 50px;
+	font-family: 'Fjalla One', sans-serif;
+		color:#D80746;
+}
+
+.header h2 {
+		font-size: 50px;
+	font-family: 'Fjalla One', sans-serif;
+	color: rgba(15,12,12,1.00);
+	margin-left: 42%;
+	
+}
+
+.paragraph{
+	position: relative;
+	width: 30%;
+	margin-top: 7px;
+/*	background-color: black;*/
+	margin-left: 45%;
+}
+
+.paragraph p {
+		font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
+	
+}
+
+.contact-us-forms {
+	position: relative;
+	width: 70%;
+	height: 70%;
+/*	background-color: aqua;*/
+	margin-top: 200px;
+	margin-left: 17%;
+}
+
+.button-move{
+	position: relative;
+	margin-left: 650px;
+	margin-top: -80px;
+	width: 50%;
+
+}
+
+.social-media-icons {
+	width: 40%;
+/*	background-color: black;*/
+	margin-left: 50%;
+	
+}
+
+.icons {
+	width: 50%;
+/*	background-color: red;*/
+	
+}
+.icons .fa-instagram {
+position: relative;
+	margin-top: -1px;
+}
+
+.icons .fa-whatsapp {
+	margin-top: 50px;
+}
+.icons .fa-facebook-f{
+	font-size: 40px;
+	margin-top: 50px;
+	
+}
+
+.fa-instagram{
+	font-size: 40px;
+
+	margin-left: 75%;
+	margin-top: 180px;
+}
+.fa-facebook-f{
+	font-size: 40px;
+	margin-left: 29px;
+	
+}
+
+.fa-whatsapp{
+	font-size: 40px;
+	margin-left: 29px;
+}
+
+
+@media screen and (max-width: 414px) {
+	.button-move {
+		margin-left: 75px;
+		margin-top: 40px;
+	}
+	
+	.header h1 {
+		font-size: 40px;
+	}
+	
+	.header h2 {
+		font-size: 30px;
+	}
+	
+	.paragraph {
+		width: 50%;
+		margin-left: 140px;
+		margin-top: 40px;
+	}
+	.paragraph p{
+		
+	
+		font-size: 20px;
+	}
+	
+}
+

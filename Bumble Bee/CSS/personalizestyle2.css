@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.row_{
+	height: 80vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.row_ .left-col{
+	padding: 15px;
+	max-width: 55%;
+	overflow: hidden;
+	width: 50%;
+	display: block;
+
+}
+.row_ .right-col{
+	width: 50%;
+	display: block;
+
+}
+
+.heading {
+	width: 100%;
+	height: 50px;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 10px;
+}
+
+.heading hr {
+
+
+	width: 4%;
+	 border: 2px solid red;
+	margin-top: 4px;
+
+}
+
+
+
+.image-box {
+	width: 40%;
+	position: relative;
+	height: 100%;
+/*	background-color: blue;*/
+	margin-left: 50%;
+	margin-top: -200px;
+}
+
+.img-personalize {
+
+
+	width: 100%;
+	height: 80%;
+/*	background-color: green;*/
+}
+
+.form-personalize {
+	width: 80%;
+	margin-left: 65px;
+	margin-top: 65px;
+	height: 50%;
+/*	background-color: yellow;*/
+
+}
+
+.left-col .img-box {
+	max-width: 500px;
+	width: 100%;
+	height: 50%;
+/*	background-color: aquamarine;*/
+	position: relative;
+	margin-left: 30px;
+
+
+}
+
+
+.img-box img{
+	max-width: 100%;
+	height: auto;
+	overflow: hidden;
+
+
+}
+
+.overlay-div{
+	position: relative;
+	width: 100%;
+	height: 10%;
+/*	background-color: tomato;*/
+margin-top: 10px;
+	margin-left: 100px;
+	
+}
+
+.overlay-div .overlay-img img {
+	width: 357px;
+	height: auto;
+	margin-left: -50px;
+	
+}
+
+
+/* .help-tab{
+
+	width: 50%;
+	height: 50%;
+/*	background-color: blueviolet;
+	margin-top: -350px;
+	margin-left: 50%;
+} */
+
+.paragraph p{
+
+
+	font-family: 'Fjalla One', sans-serif;
+	color: #100c08;
+
+}
+
+.overlay-div{
+	position: relative;
+	width: 17%;
+	height: 10%;
+/*	background-color: tomato;*/
+/* margin-top: 260px; */
+	margin-left: 145px;
+
+}
+
+
+.form-group{
+	
+	margin-left: 180px;
+	width: 50%;
+}
+
+
+
+.overlay-img img {
+	width: 80%;
+	height: auto;
+	margin-left: 30px;
+}
+
+.overlay-paragraph{
+	width: 39%;
+	height: 39%;
+/*	background-color: steelblue;*/
+	position: relative;
+	margin-top: 30px;
+	margin-left: 230px;
+}
+
+.overlay-paragraph p{
+	position: relative;
+	color: #fff;
+	margin: 15px;
+	padding:15px 10px;
+	opacity: 1;
+	font-family: 'Fjalla One', sans-serif;
+	
+
+
+}
+
+.overlay-description{
+	position: relative;
+	margin-left: 260px;
+	margin-top: 3px;
+	width: 7%;
+	height: 50%;
+/*	background-color: red;*/
+
+}
+
+.overlay-description p{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 10px;
+
+}
+#apply{
+	
+	margin: 0;
+	color: white;
+	padding: 10px 10px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 2;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.3em;
+}
+#buy_now_btn{
+	width: 100%;
+	margin: 0;
+	color: white;
+	padding: 10px 10px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 2;
+	background-color: #f39c12;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.3em;
+
+}
+
+@media screen and (max-width: 1204px) {
+	.overlay-img img{
+		width: 100%;
+		margin-left: 30px;
+	}
+
+	.overlay-paragraph p{
+		position: relative;
+	margin-top: 20px;
+	}
+
+		.img-wrap img
+	{
+
+		width: 300%;
+
+	}
+
+
+
+
+
+}
+
+@media screen and (max-width: 1080px) {
+
+
+
+	.overlay-img img {
+		width: 120%;
+	}
+
+	.overlay-paragraph {
+
+	}
+
+	.overlay-paragraph p{
+		position: relative;
+		margin-top: 30px;
+
+	}
+
+		.img-wrap img
+	{
+
+		width: 300%;
+
+	}
+	
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+	.heading h1 {
+		font-size: 20px;
+		margin-left: 150px;
+	}
+	
+	.row .right-col	.overlay-img img {
+		width: 320%;
+		z-index: 3;
+	}
+	
+	
+	.right-col{
+		margin-top: 350px;
+		
+	}
+	
+		.overlay-div .overlay-img img {
+		z-index: 3;
+	}
+	
+.row	.left-col .img-box img {
+		width: 550px;
+		
+	}
+
+
+
+
+}

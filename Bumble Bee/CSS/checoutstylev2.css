@@ -1,0 +1,573 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.heading-tab {
+	width: 100%;
+	height: auto;
+/*	background-color: aqua;*/
+	/* margin-left: 40%; */
+	margin-top: 10px;
+	margin-bottom: 80px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#place-order  {
+
+}
+/*
+#cancel  {
+	border-radius: 0;
+	width: 30%;
+	 background-color: white; 
+	background-color: #f39c12;
+	color: white;
+	text-align: center;
+	padding: 10px 15px;
+	border: none;
+	font-weight: bold;
+	letter-spacing: 2;
+	text-transform: uppercase;
+}
+*/
+
+.heading-tab hr {
+width: 14%;
+	 border: 2px solid #f39c12;
+	margin-top: 4px;
+}
+
+
+.billing-form {
+	padding-top: 10px;
+	width: 40%;
+	height: auto;
+	background-color:#EAEFF7;
+margin-left: 40px;
+	margin-top: -50px;
+
+}
+.billing-form h1{
+font-family: 'Fjalla One', sans-serif;
+color: white;
+
+
+}
+
+.table-form{
+	position: relative;
+	width: 50%;
+	height: auto;
+/*	background-color: tomato;*/
+	position: relative;
+	margin-left: 48%;
+	margin-top: -900px;
+
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: 300;
+
+}
+
+.button-placement {
+    width: 40%;
+    height: 40%;
+    /* background-color: aquamarine; */
+    margin-top: 22px;
+    margin-left: 26px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: lighter;
+}
+
+.billing-details-form {
+	width: 100%;
+
+
+/*	background-color: green;*/
+
+
+}
+
+.billing-details-form h1{
+	margin-left: 30px;
+	color: black;
+}
+
+.billing-details-form {
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 150%;
+}
+
+.street-address-form {
+	width: 100%;
+	/* background-color: red; */
+	margin-left: 35px;
+
+}
+
+
+.street-address-form h1 {
+	margin-left: 30px;
+	color: black;
+
+}
+
+.street-address-form  {
+	width: 100%;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+
+.order-notes-form {
+	width: 100%;
+/*	background-color: blue;*/
+
+}
+
+
+.order-notes-form  h1 {
+	margin-left: 30px;
+	color: black;
+
+}
+
+.order-notes-form   {
+	width: 150%;
+	margin-left: 30px;
+}
+
+.street-address-form {
+	width: 100%;
+}
+
+
+
+.payment-details-form {
+	width: 100%;
+/*	background-color: hotpink;*/
+
+}
+
+.col th{
+	color: white;
+}
+
+
+ .payment-details-form h1 {
+	margin-left: 30px;
+	 color: black;
+
+}
+ .payment-details-form  {
+	width: 150%;
+margin-left: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+
+
+	.payment-details-form h1 {
+		margin-left: 100px;
+	}
+
+	.payment-details-form form {
+		width: 200%;
+		margin-right: 50px;
+	}
+
+	.payment-details-form {
+		margin-left:  -80px;
+	}
+
+
+
+	.order-notes-form {
+		width: 200%;
+		margin-right: 50px;
+	}
+	.order-notes-form form{
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.order-notes-form h1 {
+		margin-left: 20px;
+	}
+
+
+
+	.street-address-form {
+		width: 200%;
+	}
+
+	.street-address-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.billing-details-form {
+		width: 200%;
+
+	}
+
+	.billing-details-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+
+}
+
+@media screen and (max-width: 428px) {
+
+	.billing-form{
+		margin-top: 20px;
+	}
+
+	.heading-tab h1{
+
+	}
+	.heading-tab hr {
+		width: 50%;
+		margin-left: 35px;
+	}
+
+	.payment-details-form h1 {
+		margin-left: 250px;
+		font-size: 20px;
+	}
+
+	.payment-details-form form {
+		width: 200%;
+		margin-right: 200px;
+	}
+
+	.payment-details-form {
+		margin-left:  -80px;
+	}
+
+
+
+	.order-notes-form {
+		width: 200%;
+		margin-right: 50px;
+	}
+	.order-notes-form form{
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.order-notes-form h1 {
+
+		margin-left: 170px;
+		font-size: 20px;
+	}
+
+
+	.street-address-form h1 {
+		font-size: 20px;
+		margin-left: 180px;
+	}
+
+	.street-address-form {
+		width: 200%;
+	}
+
+	.street-address-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.billing-details-form {
+		width: 200%;
+
+	}
+
+	.billing-details-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.billing-details-form h1 {
+		font-size: 20px;
+		margin-left: 150px;
+	}
+
+	.table-form{
+		margin-top: 50px;
+		width: 100%;
+		margin-left: 30px;
+	}
+
+	.button-placement {
+		width: 50%;
+		margin-left: 90px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+
+	.billing-form{
+		margin-top: 20px;
+	}
+
+	.heading-tab h1{
+
+	}
+	.heading-tab hr {
+		width: 50%;
+		margin-left: 35px;
+	}
+
+	.payment-details-form h1 {
+		margin-left: 250px;
+		font-size: 20px;
+	}
+
+	.payment-details-form form {
+		width: 200%;
+		margin-right: 200px;
+	}
+
+	.payment-details-form {
+		margin-left:  -80px;
+	}
+
+
+
+	.order-notes-form {
+		width: 200%;
+		margin-right: 50px;
+	}
+	.order-notes-form form{
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.order-notes-form h1 {
+
+		margin-left: 170px;
+		font-size: 20px;
+	}
+
+
+	.street-address-form h1 {
+		font-size: 20px;
+		margin-left: 180px;
+	}
+
+	.street-address-form {
+		width: 200%;
+	}
+
+	.street-address-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.billing-details-form {
+		width: 200%;
+
+	}
+
+	.billing-details-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.billing-details-form h1 {
+		font-size: 20px;
+		margin-left: 150px;
+	}
+
+	.table-form{
+		margin-top: 50px;
+		width: 100%;
+		margin-left: 30px;
+	}
+
+	.button-placement {
+		width: 50%;
+		margin-left: 90px;
+	}
+}
+
+
+@media screen and (max-width: 414px) {
+
+	.billing-form{
+		margin-top: 20px;
+	}
+
+	.heading-tab h1{
+
+	}
+	.heading-tab hr {
+		width: 50%;
+		margin-left: 35px;
+	}
+
+	.payment-details-form h1 {
+		margin-left: 230px;
+		font-size: 20px;
+	}
+
+	.payment-details-form form {
+		width: 200%;
+		margin-left: 120px;
+
+	}
+
+	.payment-details-form {
+		margin-left:  -80px;
+	}
+
+
+
+	.order-notes-form {
+		width: 200%;
+		margin-right: 50px;
+	}
+	.order-notes-form form{
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.order-notes-form h1 {
+
+		margin-left: 150px;
+		font-size: 20px;
+	}
+
+
+	.street-address-form h1 {
+		font-size: 20px;
+		margin-left: 140px;
+	}
+
+	.street-address-form {
+		width: 200%;
+	}
+
+	.street-address-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.billing-details-form {
+		width: 200%;
+
+	}
+
+	.billing-details-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.billing-details-form h1 {
+		font-size: 20px;
+		margin-left: 140px;
+	}
+
+	.table-form{
+		margin-top: 50px;
+		width: 100%;
+		margin-left: 30px;
+	}
+
+	.button-placement {
+		width: 50%;
+		margin-left: 90px;
+	}
+}
+
+
+@media screen and (max-width: 450px) {
+
+	.billing-form{
+		margin-top: 20px;
+	}
+
+	.heading-tab h1{
+
+	}
+	.heading-tab hr {
+		width: 50%;
+		margin-left: 35px;
+	}
+
+	.payment-details-form h1 {
+		margin-left: 230px;
+		font-size: 20px;
+	}
+
+	.payment-details-form form {
+		width: 200%;
+		margin-left: 120px;
+
+	}
+
+	.payment-details-form {
+		margin-left:  -80px;
+	}
+
+
+
+	.order-notes-form {
+		width: 200%;
+		margin-right: 50px;
+	}
+	.order-notes-form form{
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.order-notes-form h1 {
+
+		margin-left: 150px;
+		font-size: 20px;
+	}
+
+
+	.street-address-form h1 {
+		font-size: 20px;
+		margin-left: 140px;
+	}
+
+	.street-address-form {
+		width: 200%;
+	}
+
+	.street-address-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.billing-details-form {
+		width: 200%;
+
+	}
+
+	.billing-details-form form {
+		width: 100%;
+		margin-left: 41px;
+	}
+
+	.billing-details-form h1 {
+		font-size: 20px;
+		margin-left: 140px;
+	}
+
+	.table-form{
+		margin-top: 50px;
+		width: 100%;
+		margin-left: 30px;
+	}
+
+	.button-placement {
+		width: 50%;
+		margin-left: 90px;
+	}
+}

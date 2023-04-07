@@ -1,0 +1,258 @@
+body{
+	max-width: 100vw;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	color:white;
+	background-color: #EAEFF7;
+}
+.slogan{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	padding-top: 4%;
+	margin-left: -15%;
+	opacity: 0.9;
+}
+
+
+
+
+.text-section   h1{
+	color:#a5cbf7;
+	
+
+}
+/* section one done */
+
+.placeholder{
+	font-family: 'Fjalla One', sans-serif;
+	padding-left: 6%;
+	padding-top: 1%;
+	font-size: 19px;
+	opacity: 0.9;
+}
+
+/* Section 2 done */
+
+.number-placeholder{
+	font-family: 'Fjalla One', sans-serif;
+	padding-top: 1%;
+	padding-left: 6.5%;
+	opacity: 0.9;
+
+}
+.text-section  p2{
+	opacity: 0.5;
+}
+.text-section   p3{
+padding-left: 3%;
+}
+
+
+.text-section{
+	width: 40%;
+	margin-top: 5%;
+	left: 10%;
+	position: absolute;
+}
+
+
+
+
+
+
+.form{
+	display: block;
+	margin-left: 56%;
+	justify-content: center;
+	padding: 30px;
+	align-items: center;
+	transform: translateX(-110px);
+
+}
+.form-section{
+	margin-top: 10%;
+}
+
+.form input[type="text"]{
+	width: 100%;
+	font-weight: bold;
+	border-radius: 26px;
+	padding: 10px;
+	margin: 5px;
+	outline: none;
+	border: 2px solid navy;
+	background-color: white;
+}
+.form input[type="text"]:focus, textarea:focus{
+    background-color:	aliceblue;
+	border: 1px solid #a5cbf7;
+}
+
+
+.form textarea:focus{
+    background-color:	aliceblue;
+	border: 1px solid #a5cbf7;
+}
+
+
+.form input[type="text"]:nth-child(1){
+	width: 30%;
+	display: inline;
+}
+
+.form input[type="text"]:nth-child(2){
+	width: 30%;
+	display: inline;
+}
+
+.form textarea{
+	width: 100%;
+	border-radius: 10px;
+	border: 2px solid navy;
+	font-weight: bold;
+	padding: 10px;
+	margin: 5px;
+	outline: none;
+	
+	height: 150px;
+	overflow: auto;
+	resize: none;
+	background-color: white;
+	
+}
+.form button {
+    max-width: 150px;
+    width: 100%;
+    background: navy;
+    box-shadow:0px 1px 2px #050000;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 13px;
+    float:right;
+    cursor:pointer;
+     margin-top: 10px;
+    outline: none;
+    transition: .3s all ease-in;
+    font-family: 'Fjalla One', sans-serif;
+}
+.form button:hover {
+     background: #a5cbf7;
+    box-shadow:-2px 9px 17px #000000;
+    transition: .3s all ease-in;
+        }
+
+
+
+.fa-instagram{
+	font-size: 30px;
+
+}
+.fa-facebook-f{
+	font-size: 30px;
+	margin-left: 29px;
+
+}
+
+.fa-whatsapp{
+	font-size: 30px;
+	margin-left: 29px;
+}
+
+.social-media{
+	margin-top: 33px;
+	width: 300px;
+	height: 50px;
+	float: right;
+}
+
+
+@media screen and (max-width: 900px) {
+
+	#canvas-basic{
+		max-width: 700px;
+	}
+	
+	.text-section{
+		margin-left: -18px;
+	}
+	
+	
+	.form-section{
+		margin-right: -10%;
+	}
+	
+	.placeholder {
+		margin-left: -18px;
+	}
+	
+
+	.form input[type="text"]:nth-child(1){
+	width: 40%;
+	display: inline;
+}
+
+.form input[type="text"]:nth-child(2){
+	width: 40%;
+	display: inline;
+}
+	
+	
+	
+	.slogan{
+		font-size: 25px;
+		
+	}	
+	
+	
+	
+	
+	
+	
+}
+
+
+@media screen and (max-width: 500px) {
+
+		#canvas-basic{
+		max-width:1000px;
+	}
+	
+	
+	.slogan{
+		font-size: 14px;
+		margin-right: -200px;
+	}
+	
+	.placeholder{
+	font-size: 13px;
+		margin-left: -35px;
+	}
+
+	
+	.social-media{
+		margin-top: 250px;
+		margin-right: -250px;
+	}
+	
+	
+	
+	
+	
+}
+
+
+/* canvas granim code */
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 40%;
+    height: 100%;
+		z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
